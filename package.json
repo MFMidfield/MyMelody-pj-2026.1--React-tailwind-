@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "express": "^5.2.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-scroll": "^1.9.3",
@@ -26,5 +27,18 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
-  }
+  },
+  "description": "My Melody Website โปรเจกต์นี้เป็นเว็บไซต์ธีม My Melody ที่สร้างขึ้นเพื่อฝึกพัฒนาเว็บด้วย React + Tailwind CSS โดยนี่เป็น ครั้งแรก ที่ใช้ React และ Tailwind แบบจริงจังในการทำเว็บทั้งโปรเจกต์ เว็บไซต์นี้เน้นการออกแบบให้ดูน่ารัก สบายตา และเป็นมิตรกับผู้ใช้",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFMidfield/MyMelody-pj-2026.1--React-tailwind-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MFMidfield/MyMelody-pj-2026.1--React-tailwind-/issues"
+  },
+  "homepage": "https://github.com/MFMidfield/MyMelody-pj-2026.1--React-tailwind-#readme"
 }
