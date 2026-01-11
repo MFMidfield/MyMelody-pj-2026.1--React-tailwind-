@@ -45,7 +45,7 @@ function App() {
         </section>
 
         <section id='about'>
-          <div className="border flex flex-row justify-between px-5 py-0 lg:px-50 py-30">
+          <div className="flex flex-row justify-between px-5 py-0 lg:px-50 py-30">
             <div className="hidden w-full items-center justify-center lg:flex">
               <div className='hidden w-fit py-13 h-120  lg:flex'>
                 <img src={myme5} className='object-cover scale-130' />
