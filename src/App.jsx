@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="min-h-screen bg-[linear-gradient(36deg,#fcfcfc_0%,#FCCAF9_100%)]">
         <Nav />
-        <section className='flex items-center relative justify-center px-25 py-10'>
+        <section className='flex items-center relative justify-center px-50 py-30'>
           <div className="flex flex-col lg:flex-row items-center justify-between text-left w-full">
 
             <div className="flex w-100 h-100 mb-1 overflow-hidden rounded-lg lg:hidden">
@@ -45,11 +45,13 @@ function App() {
         </section>
 
         <section id='about'>
-          <div className="flex flex-row justify-between px-5 py-0 lg:px-25 py-10">
-            <div className='hidden w-fit py-13 h-120 mb-8 lg:flex'>
-              <img src={myme5} className='object-cover scale-100' />
+          <div className="border flex flex-row justify-between px-5 py-0 lg:px-50 py-30">
+            <div className="hidden w-full items-center justify-center lg:flex">
+              <div className='hidden w-fit py-13 h-120  lg:flex'>
+                <img src={myme5} className='object-cover scale-130' />
+              </div>
             </div>
-            <div className=" flex flex-col justify-center">
+            <div className=" flex flex-col justify-center w-260 ">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center lg:text-left">
                 About My Melody
               </h2>
@@ -64,7 +66,7 @@ function App() {
         </section>
 
         <section id='contact'>
-          <div className="flex justify-center px-7 py-10 ">
+          <div className="flex justify-center px-7 py-10 lg:px-50 py-30">
             <div className="flex flex-col justify-center items-center text-center px-3 gap-10 lg:flex-row">
               <div className="max-w-100 flex flex-col w-full bg-white rounded-4xl shadow-lg overflow-hidden p-6 h-130 transition-all duration-300 ease-in-out hover:scale-102 active:scale-100">
                 <div className="w-full h-full mb-1 overflow-hidden rounded-lg">

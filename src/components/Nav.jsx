@@ -5,7 +5,7 @@ export class Nav extends Component {
     render() {
         return (
             <div>
-                <nav className="hidden md:flex lg:flex justify-between items-center px-25 py-6 bg-transparent backdrop-blur-md top-0 z-50">
+                <nav className="hidden md:flex lg:flex justify-between items-center px-50 py-6 bg-transparent backdrop-blur-md top-0 z-50">
                     <div className="text-2xl font-bold text-gray-800 tracking-tight">
                         My Melody
                     </div>
